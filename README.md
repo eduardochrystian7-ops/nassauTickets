@@ -8,12 +8,12 @@ Permitir a emissão anônima de senhas, o atendimento por guichê e a visualiza�
 
 ## Tecnologias
 
-- React Native + Expo no aplicativo móvel;
-- estado local no dispositivo para a demonstração sem backend.
+- Ionic React + Capacitor para aplicativo Android/iOS e PWA;
+- estado local para a demonstração sem backend.
 
 ## Estrutura
 
-- `frontend/`: aplicativo React Native executável;
+- `frontend/`: aplicativo Ionic React com integração Capacitor;
 - `docs/`: artefatos de branding, MER, mockups, UML e requisitos;
 - `backend/`: reservado para a futura integração de serviços.
 
@@ -22,7 +22,8 @@ Permitir a emissão anônima de senhas, o atendimento por guichê e a visualiza�
 ```bash
 cd frontend
 npm install
-npm start
+npm install
+npm run dev
 ```
 
 ## Funcionalidades demonstradas
@@ -43,4 +44,15 @@ npm start
 
 - `main`: versão estável;
 - `dev`: desenvolvimento e integração das funcionalidades.
+
+## Capacitor (Android)
+
+Após instalar o Android Studio e o SDK Android, sincronize os arquivos web e abra o projeto nativo:
+
+```bash
+cd frontend
+npm run android
+```
+
+Para iOS, execute `npm run ios` em um macOS com o Xcode instalado.
 
