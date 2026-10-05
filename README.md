@@ -37,13 +37,25 @@ npm run dev
 ## Membros
 
 | Nome | Matrícula | Papel |
-|---|---|---|
-| A definir | A definir | Scrum Master |
+|-----------------------------------------------------------|
+| Chrystian Eduardo Santos Sousa | 01862423 | Scrum Master |
+| Heytor Farias Fernando da Silva | 01857126 | Documentador |
+| Jair Liberato da Silva Filho | 01864955 | Testador |
+| Luiz Vinicius da Silva Cavalcanti | 01863636 | Desenvolvedor |
+| Marcelo Nascimento Da Silva | 01865122 | Desenvolvedor |
+| Thiago Henrique Dos Santos Medino Rodrigues | 01864917 | Desenvolvedor |
 
 ## Branches
 
 - `main`: versão estável;
 - `dev`: desenvolvimento e integração das funcionalidades.
+
+##  Regras de Negócio e Senhas
+
+O sistema gerencia três tipos principais de atendimento, respeitando a seguinte ordem de prioridade na fila:
+1. **SP (Prioritário):** Gestantes, idosos, PCDs e casos de urgência leve.
+2. **SE (Exames):** Coleta de sangue, entrega de materiais e triagem laboratorial.
+3. **SG (Geral):** Informações, cadastros e retirada de laudos.
 
 ## Capacitor (Android)
 
