@@ -38,7 +38,7 @@ npm run dev
 
 | Nome | Matrícula | Papel |
 |-----------------------------------------------------------|
-| Chrysthian Eduardo Santos Sousa | 01862423 | Scrum Master |
+| Chrystian Eduardo Santos Sousa | 01862423 | Scrum Master |
 | Heytor Farias Fernando da Silva | 01857126 | Documentador |
 | Jair Liberato da Silva Filho | 01864955 | Testador |
 | Luiz Vinicius da Silva Cavalcanti | 01863636 | Desenvolvedor |
